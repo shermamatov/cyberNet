@@ -1,0 +1,605 @@
+@media (max-width: 1400px) {
+    .navbar__logo {
+        width: 135px;
+    }
+    .list__item {
+        margin-left: 30px;
+    }
+}
+@media (max-width: 1440px) {
+    .main_video_img {
+        width: 100% !important;
+    }
+    /* .main_videos {
+        width: 500px !important;
+        height: 480px !important;
+    } */
+
+    .scrol_otss {
+        display: none;
+    }
+}
+@media (max-width: 1300px) {
+    .header__block_right img {
+        /* position: relative; */
+        width: 540px;
+        top: 30px;
+    }
+    .header__title_left {
+        font-size: 45px;
+    }
+    .auth__button {
+        width: 150px;
+        height: 34px;
+    }
+    .ser-h3 {
+        font-size: 38px !important;
+    }
+    .my_vanta {
+        height: 650px !important;
+    }
+    .main_duble img {
+        width: 400px !important;
+    }
+    .infos {
+        padding: 20px 30px;
+        height: 500px;
+    }
+}
+@media (max-width: 375px) {
+    .scrol_otss {
+        display: block;
+    }
+}
+@media (max-width: 1200px) {
+    .header__block_right {
+        width: 100%;
+    }
+    .header__block_right img {
+        position: relative;
+        width: 500px;
+        left: 60%;
+        /* right: -100px; */
+        /* top: -100px; */
+    }
+    .infos2 > h3 {
+        padding: 0px 10px 10px 10px;
+    }
+    .header_main_block {
+        flex-direction: column;
+        align-items: start;
+    }
+    .header__block_right {
+        /* width: 100%;
+        display: flex;
+        align-items: end;
+        position: relative; */
+    }
+    .my_vanta {
+        height: 1100px !important;
+        /* min-height: 170vh !important; */
+    }
+    .list__item {
+        margin-left: 15px;
+        margin-bottom: 3px;
+    }
+    .auth__button {
+        width: 140px;
+        height: 32px;
+    }
+    .select_leng {
+        margin-left: 5px;
+    }
+    .ser_spisok a {
+        font-size: 22px !important;
+    }
+    .double2 {
+        height: 475px;
+    }
+    /* .main_videos {
+        width: 450px !important;
+        height: 430px !important;
+    } */
+}
+@media (max-width: 1100px) {
+    .header_block_left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .header__block_right {
+        /* width: 100vw;
+        display: flex;
+        justify-content: end; */
+        /* background-color: rgba(97, 107, 106, 0.7); */
+    }
+    .services {
+        margin-bottom: 450px;
+    }
+    .UsSer {
+        margin-bottom: 20px !important;
+    }
+    .big_h3 {
+        width: 100% !important;
+    }
+    /* .main_videos {
+        width: 400px !important;
+        height: 380px !important;
+    } */
+    .infos > h3 {
+        font-size: 12px;
+    }
+    .infos2 > h3 {
+        font-size: 18px !important;
+    }
+    .main_duble img {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .main_duble,
+    .main_duble2 {
+        flex-direction: column-reverse !important;
+        align-items: center !important;
+    }
+
+    .infos > h3 {
+        font-size: 18px;
+    }
+
+    .about_block_img {
+        width: 100%;
+    }
+    .about_block_img > img {
+        width: 100% !important;
+        margin-top: 0px;
+    }
+    .infos2 {
+        /* height: 100%; */
+        padding: 10% 3%;
+    }
+
+    .services__title_main,
+    .serviceTitle {
+        width: 80%;
+    }
+    .header__block_right img {
+        /* position: relative; */
+        /* width: 500px;
+        right: -10px;
+        top: -0px; */
+    }
+    .wrap__white {
+        margin-bottom: 300px;
+    }
+    .ser_spisok a {
+        font-size: 19px !important;
+    }
+    .services__items {
+        display: block !important;
+    }
+    .mySwiper {
+        display: none !important;
+    }
+    .tre {
+        display: block !important;
+    }
+}
+
+@media (max-width: 950px) {
+    .navbar__list,
+    .novela {
+        display: none;
+    }
+    .auth_button_div {
+        display: none;
+    }
+    .nv2 {
+        display: block;
+    }
+    .navbar__logo {
+        display: none;
+    }
+    /* .navbar__logo {
+        width: 20%;
+    } */
+    .header__block_right img {
+        /* margin-bottom: 30px; */
+        /* display: none !important; */
+        /* top: 20px; */
+        left: 50%;
+    }
+    .infos {
+        padding: 30px !important;
+    }
+    .my_vanta {
+        /* min-height: 170vh !important; */
+    }
+    .tre {
+        display: none !important;
+    }
+    .dva {
+        display: block !important;
+    }
+}
+@media (min-width: 950px) {
+    .burger_menu {
+        display: none;
+    }
+}
+@media (max-width: 900px) {
+    /* .main_videos {
+        width: 350px !important;
+        height: 300px !important;
+    } */
+}
+@media (max-width: 768px) {
+    .ser_spisok li {
+        margin-bottom: 5px !important;
+    }
+}
+@media (max-width: 700px) {
+    .infos2 > h3 {
+        padding: 0px 2% !important;
+    }
+}
+@media (max-width: 560px) {
+    .infos2 > h3 {
+        padding: 0px 2% !important;
+        margin-bottom: 20px;
+    }
+    .adap2 {
+        margin-top: 50px;
+
+        height: fit-content;
+    }
+    .infos2 {
+        /* height: 100%; */
+        padding: 7% 3%;
+    }
+}
+@media (max-width: 760px) {
+    .header__title_left {
+        font-size: 36px;
+        font-weight: 500;
+    }
+    /* .main_videos {
+        width: 300px !important;
+        height: 250px !important;
+    } */
+    .header__desc_left {
+        /* font-size: 14px; */
+    }
+    .header__block_right > img {
+        /* justify-content: center; */
+        /* margin-top: 20px; */
+        left: 30%;
+    }
+    .services__item h3 {
+        font-size: 40px;
+    }
+    .services__item p {
+        font-size: 24px;
+    }
+    .services {
+        margin-bottom: 550px;
+    }
+    .infos2 > h1 {
+        font-size: 40px;
+    }
+    .main_duble2 h3 {
+        margin-left: 30px;
+        margin-top: 100px;
+    }
+    .white__zone {
+        margin-bottom: 300px;
+    }
+    .infos2 {
+        display: none;
+    }
+    .adap2 {
+        display: block !important;
+    }
+    .infos {
+        display: none !important;
+    }
+
+    .adap {
+        display: block !important;
+        margin-top: 50px;
+    }
+    .main_duble img {
+        width: 100% !important;
+        margin-top: 0px;
+    }
+}
+@media (min-width: 760px) {
+    .adap {
+        display: none !important;
+    }
+}
+@media (max-width: 620px) {
+    .header__desc_left {
+        width: 90%;
+    }
+    .headTitle {
+        margin-top: 80px;
+    }
+    .headDesc {
+        width: 90%;
+    }
+    .services__item {
+        width: 90%;
+        height: 450px;
+    }
+    .services__item > button {
+        font-size: 22px;
+    }
+    .infos2 > h1 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .services__items {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    /* .navbar__logo {
+        width: 32%;
+    } */
+    .header__block_right > img {
+        /* width: 80%; */
+        left: 20%;
+    }
+}
+@media (max-width: 550px) {
+    .services__title_main {
+        /* width: 100%; */
+        font-size: 19px;
+    }
+    .header__title_left {
+        font-size: 22px;
+    }
+    .header__desc_left {
+        font-size: 16px;
+    }
+    .header_block_left {
+        height: 400px;
+        margin-top: 50px !important;
+    }
+    .my_vanta {
+        /* min-height: 105vh !important; */
+        height: 980px !important;
+    }
+    .UsSer {
+        margin-top: 240px !important;
+    }
+    .main_duble img {
+        width: 100% !important;
+        margin-top: -3px;
+    }
+    .main_duble h3 {
+        font-size: 12px !important;
+    }
+    .big_h3 {
+        font-size: 20px !important;
+    }
+    .wrap__white {
+        margin-bottom: 200px;
+    }
+    .slider_img > img {
+        width: 350px !important;
+    }
+    .services__items {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .header__block_right > img {
+        /* width: 90%; */
+        left: -30%;
+    }
+    .infos2 > h3 {
+        font-size: 16px !important;
+        width: 80% !important;
+    }
+}
+@media (max-width: 500px) {
+    .infos2 {
+        /* height: 100%; */
+        padding: 0% 3%;
+    }
+    .adap2 {
+        background-size: 110% !important;
+    }
+}
+@media (max-width: 430px) {
+    .services {
+        margin-bottom: 0 !important;
+    }
+    .adap2 {
+        background-size: cover !important;
+    }
+}
+@media (max-width: 800px) {
+    .ser-h3 {
+        font-size: 30px !important;
+    }
+    .ser_spisok a {
+        font-size: 14px !important;
+    }
+    .ser_spisok a::before {
+        top: 5px !important;
+    }
+}
+@media (min-width: 1800px) {
+    /* .my_vanta {
+        max-height: 1000px !important;
+    } */
+    .list__item > a {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1700px) {
+    .main_video_img {
+        width: 93% !important;
+    }
+    .asd {
+        width: 35% !important;
+    }
+    .main_video_box h3 {
+        margin-top: 10px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main_video_img {
+        width: 93% !important;
+    }
+    .scrol_otss {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .services_items_block {
+        width: 100% !important;
+    }
+    .infos2 > h3 {
+        padding: 0px 10%;
+    }
+}
+@media (min-width: 1600px) {
+    .header__block_right img {
+        width: 45%;
+        right: -160px;
+    }
+
+    .header__title_left {
+        font-size: 56px;
+    }
+    .my_vanta {
+        /* height: 860px !important; */
+    }
+    .services__list {
+        justify-content: space-evenly;
+    }
+    .infos {
+        height: 55vh;
+    }
+    .main_duble img {
+        width: 600px;
+        height: 60vh !important;
+    }
+    .main_duble h3 {
+        width: 85%;
+        font-size: 24px !important;
+        margin: auto;
+    }
+    .main_duble2 {
+        height: 70vh !important;
+    }
+    .main_duble2 img {
+        width: 660px !important;
+    }
+    .main_duble2 h3 {
+        width: 70% !important;
+        font-size: 22px !important;
+    }
+    .infos2 > h1 {
+        top: 60px;
+        left: 60px;
+    }
+    .slider_img > img {
+        width: 500px !important;
+    }
+    .upNav_email > a {
+        font-size: 18px;
+    }
+    .upNav_number > a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .header__block_right img {
+        width: 40%;
+        right: -160px;
+    }
+    .my_vanta {
+        /* height: 910px !important; */
+    }
+
+    .services__item {
+        width: 600px;
+        height: 600px;
+    }
+    .services__item > p {
+        color: black;
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .services_desc {
+        font-size: 60px;
+        font-weight: 900;
+    }
+    .scroll_box {
+        height: 350px !important;
+    }
+    .UsSer {
+        margin-top: 110px;
+    }
+}
+@media (min-width: 2000px) {
+    .slider_img > img {
+        width: 600px !important;
+    }
+}
+@media (min-width: 2400px) {
+    .slider_img > img {
+        width: 700px !important;
+    }
+}
+
+@media (min-width: 2100px) {
+    .main_duble h3 {
+        font-size: 30px !important;
+    }
+
+    .big_h3 {
+        font-size: 55px !important;
+        display: none;
+    }
+    .nones {
+        width: 75%;
+        margin: auto;
+        font-size: 36px;
+        display: block !important;
+    }
+    .main_duble img {
+        width: 700px !important;
+    }
+    .cols__wprap {
+        width: 500px;
+    }
+    .infos2 > h1 {
+        font-size: 80px;
+    }
+    /* .main_duble2 h3 {
+
+        font-size: 36px !important;
+    } */
+}
+@media (max-width: 320px) {
+    .ser_spisok a {
+        line-height: 5px;
+    }
+    .services {
+        margin-bottom: 150%;
+    }
+    .services__items {
+        display: block;
+    }
+    .services_items_block h3 {
+        width: 250%;
+    }
+}

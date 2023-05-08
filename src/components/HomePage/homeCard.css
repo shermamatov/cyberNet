@@ -1,0 +1,129 @@
+.case {
+    margin-top: 80px;
+}
+
+.studentCase_block {
+    /* color: blue;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px; */
+    /* text-align: center; */
+    color: blue;
+    max-width: 1540px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.studentCase_block > h1 {
+    font-size: 42px;
+    margin-bottom: 40px;
+    background: linear-gradient(88.32deg, #0679c1 1.42%, #02d6dd 109.3%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.studentCase_block_list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Roboto&display=swap");
+
+.case_block_card {
+    width: 31%;
+    margin-bottom: 50px;
+    margin-top: 110px;
+}
+.case_block_card:first-child,
+.case_block_card:nth-child(3n),
+.case_block_card:nth-child(3n-2) {
+    margin-top: 0;
+}
+.card_img {
+    width: 100%;
+    height: auto;
+}
+.card_img > img {
+    width: 100%;
+}
+.a-title {
+    color: #000;
+    font-family: Jura-700;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: "Jura", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+}
+.case-items-block-info {
+    margin-top: 19px;
+    box-sizing: border-box;
+}
+.info_title_mini {
+    font-family: "Jura", sans-serif;
+    /* font-family: jura-700; */
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 20px;
+    color: #000;
+    font-weight: 600;
+}
+.descChelMini {
+    font-size: 26px;
+}
+.case__item-_block_date {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+}
+a,
+li,
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+/*  adaptive*/
+@media (max-width: 700px) {
+    .studentCase_block_list {
+        margin-top: 30px;
+    }
+    .a-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .studentCase_block {
+        font-size: 25px;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+    .info_title_mini {
+        margin-top: 10px;
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .case__item-_block_date {
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 10px;
+    }
+    .blo-h1 {
+        font-size: 10px;
+        line-height: 70px;
+    }
+}
+@media (max-width: 1000px) {
+    .case_block_card {
+        width: 48%;
+    }
+    .case_block_card:first-child,
+    .case_block_card:nth-child(3n),
+    .case_block_card:nth-child(3n-2) {
+        margin-top: 110px;
+    }
+    .case_block_card:nth-child(2n-2) {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 600px) {
+}
